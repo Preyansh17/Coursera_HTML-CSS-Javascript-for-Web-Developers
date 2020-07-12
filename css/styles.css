@@ -1,10 +1,8 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-.row {
-    width: 100%;
-  }
 
 @media (min-width: 992px) {
     .col-lg-4 {
@@ -33,5 +31,38 @@
 
 h1 {
     text-align: center;
-    margin: 20px;
+    margin:10px;
 }
+
+section {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: gray;
+}
+h2 {
+    float: right;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 30%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+    overflow: auto;
+}
+section>p {
+    padding: 50px 10px 10px 10px;
+}
+
+.c > h2{
+    background-color: aquamarine;
+}
+.b > h2{
+    background-color: coral;
+}
+.s > h2{
+    background-color: greenyellow;
+}
+.row {
+    width: 100%;
+  }
