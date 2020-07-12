@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+  }
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }    
+  }
+  
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float:left;
+      width: 50%;
+    }
+    .col-md-12 {
+        float:left;
+      width: 100%;
+    }
+  }
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        float:left;
+      width: 100%;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
