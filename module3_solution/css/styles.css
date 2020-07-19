@@ -1,0 +1,124 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  
+  .navbar-brand {
+    padding-top:10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  
+  #nav-list {
+    background-color: lightgray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #nav-list a {
+    color: black;
+    text-align: center;
+  }
+
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  #chic{
+    border-bottom: 1px solid black;
+  }
+  #bee{
+    border-bottom: 1px solid black;
+  }
+  
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+  }
+ 
+  /* END HEADER */
+  
+  #main-content {
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+#main-content h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:black;
+}
+
+#main-content h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: auto;
+    color: beige;
+}
+
+#chicken {
+    background-color: lightsalmon;
+    color: beige;
+    padding: 30px;
+}
+
+
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 60px;
+      }
+    /* End Header */
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        padding-top: 10px;
+        height: 60px;
+      }
+
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+      padding-top: 10px;
+      height: 60px;
+    }
+  
+    #collapsable-nav{
+        border: 1px solid black;
+    }
+    #collapsable-nav a { /* Collapsed nav menu text */
+      font-size: 1.2em;
+    }
+
+    /* End Header */
+  
+  }
